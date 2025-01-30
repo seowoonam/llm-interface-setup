@@ -34,6 +34,10 @@ pip install -r requirements.txt
 python app.py
 ```
 2. Run the Next.js app in another terminal:
+Make sure that you are in the virtual environment
+```
+npm install
+```
 ```
 cd lets-chat
 npm run dev
