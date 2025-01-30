@@ -44,7 +44,7 @@ npm run dev
 
 ## Notes
 Ensure that `curl http://localhost:5000` works for verifying the connection.
-Change `max_tokens: int = 256` in line 213 of `.venv/lib/python3.12/site-packages/mlx_lm/utils.py` to `max_tokens: int = 1024` if you want to increase your token.
+Change `max_tokens: int = 256` in `.venv/lib/python3.12/site-packages/mlx_lm/utils.py` to `max_tokens: int = 1024` or `max_tokens: int = -1` if you want to increase your token.
 
 ## License
 MIT License
