@@ -29,16 +29,13 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. Start the server:
-```
-python -m mlx_lm.server --max_tokens 1024
-```
-3. Run the flask app:
+1. Run the flask app:
 ```
 python app.py
 ```
-4. Run the Next.js app:
+2. Run the Next.js app in another terminal:
 ```
+cd lets-chat
 npm run dev
 ```
 
