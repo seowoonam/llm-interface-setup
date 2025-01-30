@@ -12,6 +12,8 @@ itsdangerous==2.2.0
 Jinja2==3.1.5
 MarkupSafe==3.0.2
 numpy==2.2.2
+mlx==0.22.0
+mlx-lm==0.21.1
 packaging==24.2
 protobuf==5.29.3
 PyYAML==6.0.2
