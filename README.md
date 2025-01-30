@@ -17,7 +17,6 @@ This template provides a simple local interface to interact with the DeepSeek R1
 git clone https://github.com/seowoonam/llm-interface-setup
 cd llm-interface-setup
 ```
-
 2. Create and activate a virtual environment (optional):
 ```
 python3 -m venv .venv
@@ -33,11 +32,11 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-2. Run the Next.js app in another terminal:
-Make sure that you are in the virtual environment
+2. Install dependencies; Make sure that you are in the virtual environment
 ```
 npm install
 ```
+3. Run the Next.js app in another terminal:
 ```
 cd lets-chat
 npm run dev
